@@ -1,0 +1,57 @@
+body {
+    background-image: url('Default_login_screen.png');
+    background-size: cover ;
+    font-family: Arial, sans-serif;
+  }
+  
+
+.login-form {
+  width: 750px;
+  margin: 0 auto;
+  padding: 300px;
+  background-image: url(form.png); 
+  background-size: cover;
+  border-radius: 10px; 
+}
+  
+
+  #username-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    left: 40%;
+    color: white;
+  }
+
+  #password-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    position: absolute;
+    left: 40%;
+    color: white;
+  }
+
+  .login-form input[type="text"], .login-form input[type="password"] {
+    left: 50% !important;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #555;
+    color: #ddd;
+    border: none;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #ff6600;
+  }
